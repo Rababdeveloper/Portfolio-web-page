@@ -1,0 +1,68 @@
+body {
+    background-image: url("./images/clouds.jpeg");
+    background-repeat: repeat;
+    background-size: 325px;
+    font-family: 'Comic Sans MS', sans-serif;
+  }
+  /* ^ I styled the body element with a background image from adobe stock, and set it to repeat throughout the page. Also styled here: the font-family used on the page.*/
+  section {
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 5px;
+    padding: 2px;
+  }
+  /* ^ The 'section'container is styled here in order to ensure a uniform font color and size for my page's main content.*/
+  header {
+    color: black;
+    font-size: 20px;
+    background-image: url("./images/colorful-clouds.jpeg");
+    background-size: 700px;
+    border: 5px ridge blanchedalmond;
+    padding: 5px;
+   }
+  /* ^ Styles the header element with a background image of colorful clouds, as well as with a ridged border that emphasizes the title of my page.*/
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    padding: 5px;
+  }
+  /* ^ Styles all images to be centered and have the same margins and padding.*/
+  hr {
+    weight: 1px;
+    height: 1px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 1px;
+    background-color: blanchedalmond;
+  }
+  /* ^ Determines the style of the <hr> containers that divide the page's content.*/
+  .pagetitle {
+    text-align: center;
+    padding: 5px;
+    margin: 1px;
+  }
+  .heading{
+    color: black;  
+    text-align: center;
+    font-size: 20px;
+    margin-top: 2px;
+  }
+  .subheading {
+    color: black;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2px;
+  }
+  
+  a {
+    color: black;
+    font-size: 18px;
+  }
+  
+  a:link {color: darkblue}
+  a:visited {color:blueviolet}
+  a:hover {color: beige}
+  a:active {color: pink}
