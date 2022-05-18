@@ -31,7 +31,7 @@ body {
   }
   /* ^ Styles all images to be centered and have the same margins and padding.*/
   hr {
-    weight: 1px;
+    width: 1px;
     height: 1px;
     margin-top: 1px;
     margin-bottom: 1px;
